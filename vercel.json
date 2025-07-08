@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/graph/graph.html", "destination": "/public/graph/graph.html" },
-    { "source": "/sorting/sorting_page.html", "destination": "/public/sorting/sorting_page.html" }
-  ]
-}
