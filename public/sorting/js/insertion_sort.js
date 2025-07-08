@@ -19,7 +19,7 @@ function div_update(cont, h, color) {
 
 export function insertion(divs, height) {
     c_delay = 0;
-    delay_time = 10000 / (Math.floor(n / 30) * speed);
+    delay_time = 20000 / (Math.floor(n / 30) * speed);
     console.log(c_delay, delay_time);
     var i, keyD, keyH, j;
     for (i = 1; i < n; i++) {

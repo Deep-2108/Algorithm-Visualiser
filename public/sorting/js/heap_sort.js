@@ -9,7 +9,7 @@ var delay_time = 40 - 2 * (speed - 1);
 
 export function heap(divs, height) {
     c_delay = 50;
-    delay_time = 10000 / (Math.floor(n / 30) * speed);
+    delay_time = 20000 / (Math.floor(n / 30) * speed);
     for (let i = Math.floor(n / 2) - 1; i >= 0; i--)
         heapify(divs, height, n, i);
     let len = n;

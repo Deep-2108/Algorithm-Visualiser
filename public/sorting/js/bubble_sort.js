@@ -5,7 +5,7 @@ import {
 } from "./main_sort.js";
 
 var c_delay = 1;
-var delay_time = 40 - 2 * (speed - 1);
+var delay_time = 50 - 2 * (speed - 1);
 
 function div_update(cont, h, color) {
     setTimeout(function () {
@@ -20,7 +20,7 @@ function div_update(cont, h, color) {
 export function bubble(divs, height) {
     c_delay = 0;
     // delay_time = 40 - 2*(speed - 1);
-    delay_time = 10000 / (Math.floor(n / 30) * speed);
+    delay_time = 20000 / (Math.floor(n / 30) * speed);
     //console.log(c_delay, delay_time);
     for (var i = 0; i < n - 1; i++) {
         //let div one to be red
